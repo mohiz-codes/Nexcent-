@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="w-[1440px] bg-[#FFFFFF]">
+  <body class="flex flex-col items-center w-[1440px] bg-[#FFFFFF] overflow-x-hidden w-screen h-screen">
     <!--SECTION 1-->
     <section
-      class="flex justify-between bg-[#F5F7FA] h-[84px] w-[1440px] pr-[120px] pl-[105px]"
-    >
-      <div class="mt-[30px]">
+      class="flex justify-center bg-[#F5F7FA] h-[84px]  w-screen "
+    ><div class="flex justify-between w-[1440px] pr-[120px] pl-[105px] h-[84px]">
+      <div class=" mt-[30px]">
         <img
           class="h-[24px] w-[154.49px]"
           src="Assets/Logo(black).png"
@@ -42,8 +42,9 @@
     </section>
     <!--SECTION 2-->
     <section
-      class="flex items-center relative bg-[#F5F7FA] h-[599px] w-[1440px] py-[96px] px-[144px] gap-[104px]"
+      class="flex items-center  bg-[#F5F7FA] h-[599px]  gap-[104px] w-screen justify-center"
     >
+    <div class="flex relative w-[1440px] py-[96px] px-[144px]">
       <div class="flex flex-col w-[657px] h-[276px] gap-[32px]">
         <div class="flex flex-col w-[657px] h-[192px] gap-[16px]">
           <h1 class="w-[657px] h-[152px] text-[64px] leading-[76px] font-semibold font-[600px]">
@@ -75,9 +76,11 @@
         src="Assets/Dot.png"
         alt="img"
       />
+
+      </div>
     </section>
     <!--SECTION 3-->
-    <section class="relative bg-[#FFFFFF] mt-[40px] h-[190px]">
+    <section class="flex flex-col items-center relative bg-[#FFFFFF] mt-[40px] h-[190px] gap-[16px] w-screen">
       <div class="flex flex-col items-center gap-[8px]">
         <h2 class="text-[36px] font-semibold font-[600px]">Our Clients</h2>
         <p class="text-[#717171]">
@@ -85,29 +88,36 @@
         </p>
       </div>
 
-      <img
-        class="w-[1152px] h-[98px] absolute left-[144px]"
-        src="Assets/Clients Logos.png"
-        alt="img"
-      />
+      <div class="flex justify-between w-[1152px] h-[98px]">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (7).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (8).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (9).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (10).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (11).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (12).png" alt="img">
+        <img class="w-[48px] h-[48px]" src="Assets/Logo (13).png" alt="img">
+
+
+      </div>
     </section>
     <!--SECTION 4-->
 
     <section
-      class="flex flex-col items-center h-[120px] bg-[#FFFFFF] mt-[40px] gap-[8px]"
+      class="flex flex-col items-center  h-[120px] bg-[#FFFFFF] mt-[40px] gap-[8px] w-screen"
     >
-      <div class="text-center w-[542px] h-[48px]">
-        <h2 class="text-[36px] leading-[44px] font-semibold">
+      
+        <h2 class="text-[36px] leading-[44px] font-semibold  w-[542px] h-[88px] text-center">
           Manage your entire community in a single system
         </h2>
         <p class="text-[#717171]">Who is Nextcent suitable for?</p>
-      </div>
+      
     </section>
 
     <!--SECTION 5-->
     <section
-      class="flex justify-between h-[280px] bg-[#FFFFFF] mt-[16px] px-[144px]"
+      class="flex justify-between  w-[1440px] h-[280px] bg-[#FFFFFF] mt-[16px]  w-screen justify-center "
     >
+    <div class="flex justify-between w-[1440px] h-[280px] px-[144px]">
       <div
         class="flex flex-col items-center gap-[8px] px-[32px] py-[24px] w-[299px] h-[260px] border-[#ABBED133] border-1"
       >
@@ -144,11 +154,12 @@
           membership renewals and payments
         </p>
       </div>
+      </div>
     </section>
     <!--SECTION 6-->
 
     <section
-      class="flex items-center justify-between h-[433px] bg-[#FFFFFF] mt-[42px] px-[144px]"
+      class="flex items-center justify-between justify-center h-[433px] bg-[#FFFFFF] mt-[42px] px-[144px] w-screen"
     >
       <img class="w-[442px] h-[433px]" src="Assets/Frame 35.png" alt="img" />
 
@@ -175,8 +186,9 @@
 
     <!--SECTION 7-->
     <section
-      class="flex items-center justify-between h-[288px] bg-[#F5F7FA] mt-[48px] px-[144px] py-[64px]"
+      class="flex items-center justify-center h-[288px] bg-[#F5F7FA] mt-[48px]  py-[64px] w-screen"
     >
+    <div class=" flex justify-between items-center px-[144px] w-[1440px] h-[288px]">
       <div class="flex flex-col h-[120px] w-[540px] gap-[8px]">
         <h2 class="font-semibold h-[88px] w-[408px] text-[38px] leading-[44px]">
           Helping a local
@@ -227,11 +239,13 @@
           </div>
         </div>
       </div>
+      </div>
+
     </section>
 
     <!--SECTION 8-->
     <section
-      class="flex justify-between items-center w-[1440px] h-[433.4px] bg-[#FFFFFF] mt-[48px] px-[144px]"
+      class="flex justify-between justify-center items-center w-[1440px] h-[433.4px] bg-[#FFFFFF] mt-[48px] px-[144px] w-screen"
     >
       <img class="h-[433.4px] w-[441.53px]" src="Assets/pana.png" alt="img" />
 
@@ -257,7 +271,7 @@
 
     <!--SECTION 9-->
     <section
-      class="flex justify-between items-center h-[390px] mt-[48px] bg-[#F5F7FA] px-[144px] py-[32px]"
+      class="flex justify-between justify-center items-center  h-[390px] mt-[48px] bg-[#F5F7FA] px-[144px] py-[32px] gap-[78px] w-screen"
     >
       <img class="h-[326px] w-[326px]" src="Assets/image 9.png" alt="img" />
 
@@ -305,7 +319,7 @@
 
     <!--SECTION 10-->
     <section
-      class="flex flex-col items-center w-[1440px] h-[506px] mt-[48px] bg-[#FFFFFF] gap-[16px]"
+      class="flex flex-col items-center  w-[1440px] h-[506px] mt-[48px] bg-[#FFFFFF] gap-[16px] w-screen"
     >
       <div class="flex flex-col items-center w-[1110px] h-[124px] gap-[8px]">
         <h2
@@ -321,7 +335,7 @@
         </p>
       </div>
 
-      <div class="relative flex justify-between w-full h-[366px] px-[120px]">
+      <div class="relative flex justify-between w-[1440px] h-[366px] px-[144px]">
         <img class="w-[368px] h-[268px]" src="Assets/image 18.png" alt="img" />
         <div
           class="flex flex-col items-center absolute left-[145.5px] bottom-[0px] w-[317px] h-[176px] bg-[#F5F7FA] rounded-[8px] p-[16px]"
@@ -377,7 +391,7 @@
 
     <!--SECTION 11-->
     <section
-      class="flex flex-col items-center h-[300px] mt-[94.6px] bg-[#F5F7FA] py-[32px] gap-[32px]"
+      class="flex flex-col items-center h-[300px] mt-[94.6px] bg-[#F5F7FA] py-[32px] gap-[32px] w-screen"
     >
       <h1
         class="w-[887px] h-[152px] font-semibold text-[64px] leading-[76px] text-center "
@@ -393,8 +407,9 @@
 
     <!--SECTION 12-->
     <section
-      class="flex justify-between h-[328px] px-[165px] py-[64px] bg-[#263238] gap-[125px]"
+      class="flex justify-between justify-center h-[328px] px-[165px] py-[64px] bg-[#263238] gap-[125px] w-screen"
     >
+
       <div class="flex flex-col justify-center w-[350px] h-[189.67] gap-[40px]">
         <img class="w-[191px] h-[29.67px]" src="Assets/Logo.png" alt="img" />
 
@@ -482,6 +497,9 @@
           </div>
         </div>
       </div>
+     
+
+
     </section>
   </body>
 </html>
